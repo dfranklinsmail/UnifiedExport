@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "UEExpressionNode",
+	"category" : "UnifiedExport-AST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selector",
+		"receiver",
+		"arguments"
+	],
+	"name" : "UEMessageNode",
+	"type" : "normal"
+}

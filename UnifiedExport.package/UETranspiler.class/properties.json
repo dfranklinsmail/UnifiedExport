@@ -11,7 +11,11 @@
 		"classes",
 		"methods",
 		"selectors",
-		"moreToProcess"
+		"currentClass",
+		"currentMethod",
+		"methodsToTranspile",
+		"currentMethodNode",
+		"methodNode"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"
