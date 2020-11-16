@@ -4,7 +4,9 @@
 	"category" : "UEToy",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"level"
+	],
 	"instvars" : [
 		"key",
 		"value"
