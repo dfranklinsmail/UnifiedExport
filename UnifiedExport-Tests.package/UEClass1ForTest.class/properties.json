@@ -2,10 +2,16 @@
 	"commentStamp" : "DaveMason 5/29/2020 19:54",
 	"super" : "Object",
 	"category" : "UnifiedExport-Tests-ClassesForTests",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"abc"
+	],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classvars" : [
+		"ClassVar"
+	],
+	"instvars" : [
+		"test5"
+	],
 	"name" : "UEClass1ForTest",
 	"type" : "normal"
 }

@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"receiver",
+		"falseBranch",
+		"trueBranch"
+	],
 	"name" : "UEConditionalNode",
 	"type" : "normal"
 }

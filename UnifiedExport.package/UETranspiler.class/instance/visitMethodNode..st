@@ -1,10 +1,10 @@
-visitor
-visitMethodNode: aRBMethodNode 
-	methodNode := UEMethodNode method: aRBMethodNode.
+visiting
+visitMethodNode: aRBMethodNode
 	" more to come "
+	statementTarget := methodNode statements.
 	self visit: aRBMethodNode body.
-	(methodNode statements isEmpty or: [methodNode statements last isReturn not]) ifTrue: [
-		methodNode addStatement: (UEReturnNode new expression: (self visitSelfNode: nil)).
+	(statementTarget isEmpty or: [statementTarget last isReturn not]) ifTrue: [
+		statementTarget addStatement: (UEReturnNode new expression: (self visitSelfNode: nil)).
 	].
 	^ methodNode 
 	
