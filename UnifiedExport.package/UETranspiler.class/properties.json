@@ -4,7 +4,9 @@
 	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"OptimizedMessages"
+	],
 	"instvars" : [
 		"typeMap",
 		"typeChecker",
@@ -18,7 +20,7 @@
 		"methodNode",
 		"globalscope",
 		"currentScope",
-		"statementTarget"
+		"methodOrBlockNode"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"
