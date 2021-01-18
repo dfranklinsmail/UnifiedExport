@@ -8,7 +8,8 @@
 		"NextVar"
 	],
 	"instvars" : [
-		"string"
+		"string",
+		"level"
 	],
 	"name" : "ToyUnbound",
 	"type" : "normal"

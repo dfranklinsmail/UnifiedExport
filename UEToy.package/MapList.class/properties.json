@@ -4,12 +4,11 @@
 	"category" : "UEToy",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"level"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
-		"value"
+		"value",
+		"level"
 	],
 	"name" : "MapList",
 	"type" : "normal"
